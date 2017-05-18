@@ -5,6 +5,9 @@ module.exports = {
         amd: true,
         node: true
     },
+    parserOptions: {
+        ecmaVersion: 8
+    },
     globals: {},
     plugins: [
         "html"
