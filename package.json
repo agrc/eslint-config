@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-agrc",
+  "version": "1.0.0",
+  "description": "AGRC's default eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrc/eslint-config-agrc.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Scott Davis <stdavis@utah.gov>, Steve Gourley <sgourley@utah.gov>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agrc/eslint-config-agrc/issues"
+  },
+  "homepage": "https://github.com/agrc/eslint-config-agrc#readme",
+  "peerDependencies": {
+    "eslint": ">=3"
+  }
+}
