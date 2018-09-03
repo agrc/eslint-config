@@ -7,7 +7,7 @@ module.exports = {
         jquery: true
     },
     parserOptions: {
-        ecmaVersion: 8
+        ecmaVersion: 2018
     },
     globals: {},
     plugins: [
