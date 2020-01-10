@@ -1,7 +1,7 @@
 {
   "name": "@agrc/eslint-config",
   "version": "1.3.0",
-  "description": "AGRC's default eslint configuration",
+  "description": "AGRC's default react eslint configuration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/agrc/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">=3"
+    "eslint": "6.x"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "7.x"
   }
 }
