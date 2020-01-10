@@ -19,7 +19,7 @@ In `package.json`:
 ## Development
 
 1. From root of this project: `npm link`
-1. From root of test project: `npm i --no-save eslint-plugin-react` (This is due to a bug in eslint that prevent these deps from working in eslint via the symlink folder.)
+1. From root of test project: `npm i --no-save eslint-plugin-react eslint-plugin-react-hooks` (This is due to a bug in eslint that prevent these deps from working in eslint via the symlink folder.)
 1. From root of test project: `npm link @agrc/eslint-config`
 
 Note: If you update any dependencies of this project, make sure to run `npm link` again so that it can install/update them in the symlink folder.
