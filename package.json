@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-agrc",
+  "name": "@agrc/eslint-config",
   "version": "1.3.0",
   "description": "AGRC's default eslint configuration",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agrc/eslint-config-agrc.git"
+    "url": "git+https://github.com/agrc/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -17,9 +17,9 @@
   "author": "Scott Davis <stdavis@utah.gov>, Steve Gourley <sgourley@utah.gov>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agrc/eslint-config-agrc/issues"
+    "url": "https://github.com/agrc/eslint-config/issues"
   },
-  "homepage": "https://github.com/agrc/eslint-config-agrc#readme",
+  "homepage": "https://github.com/agrc/eslint-config#readme",
   "peerDependencies": {
     "eslint": ">=3"
   }
