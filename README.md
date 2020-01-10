@@ -1,4 +1,4 @@
-# eslint-config-agrc
+# @agrc/eslint-config
 AGRC's default [ESLint](http://eslint.org/) configuration
 
 ## Usage
