@@ -16,11 +16,18 @@ module.exports = {
       version: 'detect'
     }
   },
+  plugins: ['react', 'react-hooks'],
   rules: {
-    'react/prop-types': 'off',
     indent: ['error', 2, { SwitchCase: 1 }],
     semi: ['error', 'always'],
     'comma-dangle': 'error',
+
+    // plugin: react
+    'react/prop-types': 'off',
+
+    // plugin: react-hooks
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
 
     // curly: 'error',
     // 'default-case': 'error',
