@@ -1,3 +1,5 @@
+# NOTE: We have deprecated this in favor of `eslint:recommended`
+
 # @agrc/eslint-config
 
 AGRC's default [React-specific](https://reactjs.org) [ESLint](http://eslint.org/) configuration
